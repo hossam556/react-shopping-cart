@@ -1,0 +1,45 @@
+.Modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 22px;
+    font-family: Montserrat;
+
+}
+
+@media (max-width: 499px) {
+    .Modal{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.Modal button {
+    position: absolute;
+    right:1rem ;
+    top: 2.5rem;
+    z-index:1000 ;
+    padding: 7px;
+    font-size: 20px;
+}
+
+.Modal li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+    padding: 15px;
+}
+
+.Modal p {
+    padding: 20px;
+    color: green;
+    font-weight: bold;
+
+}
+
+.Title {
+    padding: 15px;
+}

@@ -1,0 +1,16 @@
+.Checkout {
+    padding: 0px;
+    width: 100%;
+   
+}
+.Checkout li {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+input {
+    padding: 1rem;
+    border: 0.1rem solid;
+    font-size: 23px;
+}

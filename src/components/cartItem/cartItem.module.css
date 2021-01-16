@@ -1,0 +1,36 @@
+.CartItem div p{
+    border-bottom: none;
+    padding: 0px;
+}
+
+.CartItem img{
+    width: 70px;
+    height: 90px;
+} 
+
+.CartItem div{
+    display: flex;
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.CartItem div button {
+    font-size: 20px;
+    font-family: Montserrat;
+    border: 0.1rem #c0c0c0 solid;
+    background-color:rgba(221, 218, 218, 0.897);
+    cursor: pointer;
+    
+}
+
+.Ct {
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+}
+.Ct p {
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+}

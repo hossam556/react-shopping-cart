@@ -1,0 +1,16 @@
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+
+export const INPUT_HANDLER = 'INPUT_HANDLER';
+export const CREATE_ORDER = 'CREATE_ORDER';
+
+export const PRODUCT_FILTER = 'PRODUCT_FILTER';
+export const PRODUCT_SORT = 'PRODUCT_SORT';
+
+export const OPEN_MODAL = 'OPEN_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+
+export const FETCH_PRODUCTS = 'FETCH_Products';
+export const FETCH_PRODUCTS_SUCCESS = 'FETCH_PRODUCTS_SUCCESS';
+export const FETCH_PRODUCTS_FAIL = 'FETCH_PRODUCTS_FAIL';
+export const FETCH_PRODUCTS_START = 'FETCH_PRODUCTS_START';
