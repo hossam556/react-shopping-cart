@@ -1,15 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
 .grid_container {
     display: grid;
     grid-template-areas: 'header' 'main' 'footer';
-    grid-template-rows: 60px 100vh 60px;
+    grid-template-rows: 60px 200vh 60px;
     height: 100%;
-    font-size: 1.6rem;
-    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 1.4rem;
+    font-family:Montserrat,  Helvetica,Arial, sans-serif;
+}
+
+@media (max-width: 499px) {
+    .grid_container{
+        grid-template-rows: 60px 1000vh 60px;
+    }
 }
 
 header a{
-    color: white;
+    color:orange;
     text-decoration: none;
+    font-size: 36px;
+    padding: 10px;
 }
 
 a:hover {
@@ -22,11 +33,12 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    padding: 5px;
 }
 
 main {
     grid-area: 'main';
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer {

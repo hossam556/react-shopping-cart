@@ -1,0 +1,60 @@
+.Cart {
+    flex: 1 20rem;
+    
+}
+.Cart p {
+    border-bottom: .1rem grey solid;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.4rem;
+}
+
+.Cart p i {
+    color:rgb(77, 77, 77,30%)    ;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.Cart p span {
+    background-color: orange;
+    position: relative;
+    bottom: 30px;
+    right: 12px;
+    padding: 5px;
+    border-radius: 100px;
+    font-size: 17px;
+}
+
+
+.Cart ul {
+    border-bottom:none;
+    list-style-type: none;
+    
+}
+
+.Total {
+    display: flex;
+   justify-content: space-between;
+   padding: 30px;
+   margin: 0px;
+   align-items: center;
+}
+
+.Cart button {
+    font-size: 22px;
+    font-family: Montserrat;
+    padding: 15px 20px;
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f0c040;
+    cursor: pointer;
+    border: .1rem solid silver;
+}
+
+.Total div {
+    font-size: 30px;
+   
+    margin: 0px;
+}
+.Total button {
+  width: 180px;
+}

@@ -1,0 +1,15 @@
+.Products {
+    flex: 3 60rem;
+   
+}
+
+.Products ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 20px;
+   
+    align-items: center;
+
+}

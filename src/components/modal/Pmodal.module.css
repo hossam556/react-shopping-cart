@@ -1,0 +1,44 @@
+.Modal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    flex: 1 1;
+    margin: 1rem;
+    font-size: 25px;
+}
+.Modal img {
+    max-width: 46rem;
+    max-height: 100vh;
+}
+.button {
+    position: absolute;
+    right:1rem ;
+    top: 2.5rem;
+    z-index:1000 ;
+}
+.sizes {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.add {
+    font-size: 22px;
+    font-family: Montserrat;
+    padding: 15px 20px;
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f0c040;
+    cursor: pointer;
+    border: .1rem solid silver;
+    width: 40%;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block p {
+    font-size: 30px;
+}

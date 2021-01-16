@@ -6,7 +6,7 @@ class Layout extends Component {
         return(
             <div className={classes.grid_container}>
                 
-               <header><a href='/'>React Shopping Cart</a></header>
+               <header><a href='/'><i class='fas fa-home' ></i></a></header>
                <main>{this.props.children}</main>
                <footer>All right is reserved</footer>
                
