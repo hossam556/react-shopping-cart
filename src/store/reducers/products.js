@@ -1,5 +1,4 @@
 import * as actionTypes from '../actions/actionTypes';
-import * as data from '../../data';
 
 const initialState = {
     products :null ,
@@ -16,14 +15,14 @@ const reducer= (state = initialState , action)=>{
             if(action.event.target.value ===''){
                 return{
                     ...state ,
-                    products : data.data,
+                    products : state.products,
                     size : action.event.target.value
                 };
             }else { 
                 return{
                   ...state ,
                   size : action.event.target.value ,
-                  products : data.data.filter(product => product.availableSizes.indexOf(action.event.target.value) >= 0)
+                  products : state.products.filter(product => product.availableSizes.indexOf(action.event.target.value) >= 0)
                 }
             }
         case actionTypes.PRODUCT_SORT :
