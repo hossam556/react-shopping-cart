@@ -53,11 +53,7 @@ const reducer= (state = initialState , action)=>{
                 ...state ,
                 product : null
             };
-        case actionTypes.FETCH_PRODUCTS_START :
-            return {
-                ...state ,
-                loading : true
-            };
+        
         case actionTypes.FETCH_PRODUCTS_SUCCESS :
             return {
                 ...state ,

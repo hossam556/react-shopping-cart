@@ -41,15 +41,11 @@ export const fetchProductsFail = ()=> {
     }
 };
 
-export const fetchProductsStart =()=>{
-    return{
-        type : actionTypes.FETCH_PRODUCTS_START
-    }
-};
+
 
 export const fetchProducts =()=>{
    return dispatch=>{
-         dispatch(fetchProductsStart());
+         
     axios.get('https://react-shopping-cart-98508-default-rtdb.firebaseio.com/products.json').then(response=>{
             dispatch(fetchProductsSuccess(response.data))
     }).catch(error =>{
