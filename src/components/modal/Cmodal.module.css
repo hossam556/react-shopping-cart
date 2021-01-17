@@ -11,8 +11,18 @@
 
 @media (max-width: 499px) {
     .Modal{
-        height: 50px;
-        width: 50px;
+        font-size: 10px;
+    }
+    .Modal li {
+        padding: 0px;
+        width: 70%;
+    }
+    .Modal p {
+        padding: 10px;
+    }
+    .Modal button {
+        padding: 5px;
+        font-size: 10px;
     }
 }
 

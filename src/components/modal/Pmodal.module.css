@@ -42,3 +42,28 @@
 .block p {
     font-size: 30px;
 }
+
+@media (max-width: 499px){
+    .Modal img {
+        width: 170px;
+        height: 300px;
+    }
+    .title {
+        font-size: 10px;
+    }
+    .block p {
+        font-size: 10px;
+    }
+    .sizes {
+        padding: 5px;
+        font-size: 5px;
+    }
+    .button{
+        font-size: 5px;
+    }
+    .add {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+    
+}
