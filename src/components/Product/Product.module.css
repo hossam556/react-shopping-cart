@@ -16,6 +16,7 @@
 .Item a img {
    width: 380px;
    height:480px ;
+   max-width: 100%;
 }
 
 .Item div {
